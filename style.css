@@ -62,3 +62,19 @@ body {
     background-color: var(--tinte-orange01);
     box-shadow: 1px 1px 6px var(--sombra-black01);
 }
+
+.card{
+    height: 100%;
+    width: 100% !important;
+}
+
+.card-container{
+    justify-content: center;
+    height: 75vh;
+    width: 60vw;
+}
+
+.card{
+    height: 100%;
+    width: 100% !important;
+}
