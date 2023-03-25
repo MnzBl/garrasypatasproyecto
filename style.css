@@ -34,3 +34,14 @@ body{
 #TituloPerroAdop{
 
 }
+
+.card-container{
+    justify-content: center;
+    height: 75vh;
+    width: 60vw;
+}
+
+.card{
+    height: 100%;
+    width: 100% !important;
+}
