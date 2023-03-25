@@ -1,3 +1,7 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
 .carousel-scale .carousel-inner {
     transform: scale(0.4);
   }
@@ -7,9 +11,7 @@
   background-color: orange;
 }
 
-.navbar-nav .nav-link {
-    font-family: 'Fira Sans';
-}
+
 
 .carousel{
     max-width: 680px;
@@ -25,10 +27,10 @@ body{
     background-color: white;
 }
 
-#Sessionadopcion{
-    font-family: 'Alkatra';
+#session-adopcion {
+
 }
 
 #TituloPerroAdop{
-    font-family: 'Alkatra';
+
 }
