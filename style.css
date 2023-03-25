@@ -49,11 +49,7 @@ body {
     max-height: 100%;
 }
 
-.card-img-top {
-    padding: 12px;
-    border-radius: 100%;
-    object-fit: contain;
-}
+
 
 .btn-orange {
     background-color: var(--accent-orange);
@@ -80,10 +76,16 @@ body {
     width: 60vw;
 }
 
-.card{
+/* .card{
     height: 100%;
     width: 100% !important;
     flex-direction: row;
+} */
+
+.card-img-top {
+    padding: 12px;
+    border-radius: 100%;
+    object-fit: contain;
 }
 
 .card-body {
