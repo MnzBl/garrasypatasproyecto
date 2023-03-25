@@ -1,6 +1,16 @@
+:root {
+    --accent-orange: #EA6926FF;
+    --tinte-orange01: rgb(243, 147, 95);
+    --tinte-white01: #D5D0CD;
+    --tinte-white02: #F8F4E3;
+    --tinte-grey01: #424B54;
+    --sombra-black01: rgba(0, 0, 0, 0.245)
+}   
+
 body {
+
     font-family: 'Inter', sans-serif;
-    background-color: white;
+    background-color: var(--tinte-white02);
 }
 
 .navbar-brand img {
@@ -10,24 +20,45 @@ body {
 .carousel-scale .carousel-inner {
     transform: scale(0.4);
   }
+
+.nav-link{
+    font-weight: 500;
+}
+
+.card {
+    background-color: var(--tinte-white01);
+    color: var(--tinte-grey01);
+}
   
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link:focus {
-  background-color: orange;
+  background-color: var(--accent-orange);
   border-radius: 12px; 
+  color: var(--tinte-white02)!important;
   box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.245);
 }
+
 
 .carousel-hero {
     width: 100%;
 }
 
 .carousel img {
+
     max-width: 100%;
     max-height: 100%;
 }
 
 .card-img-top {
+    padding: 12px;
     border-radius: 100%;
 }
 
+.btn-adoptar {
+    background-color: var(--accent-orange);
+}
+
+.btn-adoptar:hover {
+    background-color: var(--tinte-orange01);
+    box-shadow: 1px 1px 6px var(--sombra-black01);
+}
